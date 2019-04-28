@@ -1,0 +1,22 @@
+{
+  "name": "vasiliy/funpay",
+  "description": "assignment for Funpay",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vasiliy Pyatykh",
+      "email": "catanfa@yandex.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "phpunit/phpunit": "^7.5",
+    "simpleregex/srl-php": "^0.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Funpay\\": "src/"
+    }
+  }
+}
