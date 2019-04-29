@@ -2,7 +2,7 @@
   "name": "vasiliy/funpay",
   "description": "assignment for Funpay",
   "type": "project",
-  "license": "MIT",
+  "license": "Proprietary",
   "authors": [
     {
       "name": "Vasiliy Pyatykh",
@@ -10,13 +10,15 @@
     }
   ],
   "minimum-stability": "stable",
-  "require": {
-    "phpunit/phpunit": "^7.5",
-    "simpleregex/srl-php": "^0.1.0"
-  },
   "autoload": {
     "psr-4": {
       "Funpay\\": "src/"
     }
+  },
+  "require-dev": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require": {
+    "spatie/regex": "^1.4"
   }
 }
